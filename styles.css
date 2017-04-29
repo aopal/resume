@@ -18,6 +18,20 @@
     font-size: 2vw;
     padding: 0;
     margin: 0;
+    /*border: 1px solid black;*/
+}
+
+li {
+    position: relative;
+    left: 4%;
+    width: 96%;
+}
+
+h1 {
+    /*border: 1px solid black;*/
+    font-family: glacial-bold;
+    height: 2.5vw;
+    position: relative;
 }
 
 .subtitle {
@@ -35,8 +49,16 @@
     height: 6vw;
 }
 
+.buffer {
+    margin-top: 1vw;
+}
+
 .text {
     height: 3vw;
+}
+
+.heading {
+    display: table;
 }
 
 .separator {
@@ -46,17 +68,22 @@
 }
 
 .line {
+    position: relative;
     background-color: #243269;
     height: 0.35vw;
     margin-left: 0.75vw;
+    top: 0.5vw;
 }
+
+/*.dates {
+    position: relative;
+    text-align: right;
+    float: right;
+    top: -2.5vw;
+}*/
 
 #header {
     height: 15vw;
-}
-
-#header-left {
-    
 }
 
 #header-right {
@@ -65,8 +92,3 @@
     text-align: right;
     height: 15vw;
 }
-
-#skills {
-    display: table;
-}
-
