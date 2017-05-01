@@ -55,8 +55,8 @@ h1 {
   margin-top: 1vw;
 }
 
-.text {
-  height: 3vw;
+.header-content {
+  line-height: 3vw;
 }
 
 .heading {
@@ -85,6 +85,6 @@ h1 {
 #header-right {
   position: relative;
   top: -15vw;
-  text-align: right;
   height: 15vw;
+  text-align: right;
 }
