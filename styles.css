@@ -21,7 +21,12 @@
 }
 
 body {
-  zoom: 150%;
+  zoom: 120%;
+  -webkit-print-color-adjust: exact; 
+}
+
+@media print {
+body {-webkit-print-color-adjust: exact;}
 }
 
 li {
@@ -73,9 +78,19 @@ h1 {
 .line {
   position: relative;
   background-color: #243269;
-  border: 0.175vw solid #243269;
+  background: #243269;
+  border: 0.2vw solid #243269;
   margin-left: 0.75vw;
   top: 0.5vw;
+}
+
+.row {
+  display: table-row;
+}
+
+.row div {
+  display: table-cell;
+  width: 50%;
 }
 
 #header {
@@ -87,4 +102,8 @@ h1 {
   top: -15vw;
   height: 15vw;
   text-align: right;
+}
+
+#projects-body {
+  display: table;
 }
