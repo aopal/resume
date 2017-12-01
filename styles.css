@@ -21,8 +21,8 @@
 }
 
 body {
-  zoom: 100%;
-  -webkit-print-color-adjust: exact; 
+  zoom: 104%;
+  -webkit-print-color-adjust: exact;
 }
 
 @media print {
@@ -33,6 +33,7 @@ li {
   position: relative;
   left: 4%;
   width: 96%;
+  margin-left: 3%
 }
 
 h1 {
@@ -46,6 +47,7 @@ h1 {
   font-size: 5.5vw;
   font-family: glacial-bold;
   height: 6vw;
+  line-height: 6vw;
 }
 
 .subtitle {
@@ -70,7 +72,7 @@ h1 {
 }
 
 .separator {
-  display: table-cell; 
+  display: table-cell;
   width: 100%;
   vertical-align: middle;
 }
@@ -84,26 +86,36 @@ h1 {
   top: 0.5vw;
 }
 
-.row {
-  display: table-row;
-}
+/*.row {
+  display: block;
+}*/
 
-.row div {
+/*.row div {
   display: table-cell;
   width: 50%;
-}
+}*/
 
 #header {
-  height: 15vw;
+  height: 9vw;
 }
 
 #header-right {
   position: relative;
-  top: -15vw;
-  height: 15vw;
+  top: -9vw;
+  height: 9vw;
   text-align: right;
 }
 
-#projects-body {
-  display: table;
+#experience {
+  width: 48%;
+  float: right;
 }
+
+#projects, #education, #skills, #hobbies, #clubs {
+  float: left;
+  width: 48%;
+}
+
+/*#projects-body {
+  display: table;
+}*/
