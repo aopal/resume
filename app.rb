@@ -4,9 +4,9 @@ require 'sinatra'
 set :public_folder, '.'
 
 get '/' do
-  send_file 'index.html'
+  send_file 'index.pdf'
 end
 
-get '/pdf' do
-  send_file 'index.pdf'
+get '/raw' do
+  send_file 'index.html'
 end
