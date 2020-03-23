@@ -21,7 +21,7 @@
 }
 
 body {
-  zoom: 99%;
+  zoom: 117%;
   -webkit-print-color-adjust: exact;
 }
 
@@ -42,6 +42,15 @@ h1 {
   font-family: glacial-bold;
   height: 2.5vw;
   position: relative;
+}
+
+h2 {
+  font-family: glacial;
+  font-weight: 100;
+  font-style: italic;
+  /* height: 2vw; */
+  position: relative;
+  /* margin-bottom: 5px; */
 }
 
 a {
@@ -125,7 +134,7 @@ a:hover {
 #header-right span {
   display: inline-block;
   text-align: left;
-  max-width: 20%;
+  max-width: 30%;
   padding-left: 2.5%;
 }
 
