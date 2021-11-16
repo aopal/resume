@@ -21,7 +21,7 @@
 }
 
 body {
-  zoom: 117%;
+  zoom: 109%;
   -webkit-print-color-adjust: exact;
 }
 
@@ -34,7 +34,7 @@ body {
 li {
   position: relative;
   left: 4%;
-  width: 96%;
+  width: 95%;
   margin-left: 3%
 }
 
@@ -54,7 +54,7 @@ h2 {
 }
 
 a {
-  color: inherit;
+  color: #243269;
   font-family: inherit;
   font-weight: inherit;
   text-decoration: inherit;
@@ -83,7 +83,8 @@ a:hover {
 
 .buffer {
   margin-top: 0.5vw;
-  border: 0.5px solid white;
+  padding-top: 0.5vw;
+  /* border: 0.5px solid white; */
 }
 
 .header-content {
@@ -141,9 +142,18 @@ a:hover {
 #col-right {
   width: 48%;
   float: right;
+  padding-right: 1%
 }
 
 #col-left {
   width: 48%;
   float: left;
+}
+
+* {
+  line-height: 1.15;
+}
+
+li {
+  padding-bottom: 2%;
 }
